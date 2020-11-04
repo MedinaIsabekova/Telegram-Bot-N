@@ -24,6 +24,54 @@ def menu(message):
                                           'and I will give you'
                                           'their biography!',
                          reply_markup=keyboard)
+    elif message.text.lower() == 'narutoo':
+        bot.send_photo(message.chat.id, 'https://animemotivation.com/'
+                                        'wp-content/uploads/2020/01/'
+                                        'naruto-uzumaki-wallpaper.jpg')
+    elif message.text.lower() == 'saskee':
+        bot.send_photo(message.chat.id, 'https://cdna.artstation.'
+                                        'com/p/assets/'
+                                        'images/images/009/733/964/large/'
+                                        'himsin-ru-338820.jpg?1520589015')
+    elif message.text.lower() == 'obitoo':
+        bot.send_photo(message.chat.id, 'https://lh3.googleusercontent.com/'
+                                        'C06BY7yk4lJhIYH48'
+                                        'zEh3JGhuqLg32TrAFRM9qTb8'
+                                        'JBrMKZuWse02TLoi6aL'
+                                        'PUV9cVvhHAlX=w640-h400-'
+                                        'e365-rj-sc0x00ffffff')
+    elif message.text.lower() == 'tobiramaa':
+        bot.send_photo(message.chat.id, 'https://wallpaperaccess.com/'
+                                        'full/1561715.png')
+    elif message.text.lower() == 'madaraa':
+        bot.send_photo(message.chat.id, 'https://cdna.artstation.com/p/'
+                                        'assets/images/images/023/573/244/'
+                                        'medium/charly-animestation-'
+                                        'madara-retocado.jpg?1579642768')
+    elif message.text.lower() == 'bakugoo':
+        bot.send_photo(message.chat.id, 'https://static0.srcdn.com/'
+                                        'wordpress/wp-content/uploads/'
+                                        '2020/09/Bakugo-wholesome.jpg')
+    elif message.text.lower() == 'todorokii':
+        bot.send_photo(message.chat.id, 'https://static.displate.com/'
+                                        '280x392/displate/2019-11-18/'
+                                        '616c46c9cccf9bad33df2a3c928c5024_'
+                                        '752210a5863fe23e01b69c58a'
+                                        'a56a14c.jpg')
+    elif message.text.lower() == 'midoriyaa':
+        bot.send_photo(message.chat.id, 'https://spoilerguy.com/'
+                                        'wp-content/uploads/2020/'
+                                        '04/Midoriya-Hidden-'
+                                        'Quirk-Strength.jpg')
+    elif message.text.lower() == 'gonn':
+        bot.send_photo(message.chat.id, 'https://morningpicker.com/'
+                                        'wp-content/uploads/2020'
+                                        '/05/Screenshot-2020-05-'
+                                        '15-at-3.49.45-PM.png')
+    elif message.text.lower() == 'killuaa':
+        bot.send_photo(message.chat.id, 'https://static0.cbrimages.com/'
+                                        'wordpress/wp-content/uploads/'
+                                        '2020/05/Killua-Featured.jpg')
     elif message.text.lower() == 'my hero academy':
         keyboard = types.ReplyKeyboardMarkup(True)
         keyboard.row('Bakugo', 'Todoroki', )
